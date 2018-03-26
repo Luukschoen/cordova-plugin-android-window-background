@@ -27,7 +27,8 @@
   		<config-file target="app/src/main/res/values/cordova-window-background-styles.xml" parent="/*">
   			<style name="CordovaWindowBackgroundTheme" parent="@android:style/Theme.NoTitleBar">
   				<item name="android:windowBackground">@color/cordova_window_background</item>
-  			</style>
+          <item name="android:statusBarColor">@color/cordova_window_background</item>
+  			</style>        
   		</config-file>
   	</platform>
 </plugin>
